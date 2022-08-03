@@ -1,0 +1,371 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(246, 250, 253);
+}
+
+/* navbar */
+
+.nav {
+  overflow: hidden;
+  background-color: white;
+}
+
+.nav a {
+  color: #00559f;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 24px;
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+
+}
+
+.nav a:hover {
+  color:#e32118;
+}
+
+.home a {
+  float: left;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+/* autorization */
+
+.auth a {
+  float: right;
+  font-size: 15px;
+}
+
+.authForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.authForm h1 {
+  font-size: 38px;
+  font-weight: 900;
+}
+
+.authForm h4 {
+  color: #aeaeae;
+  font-style: 14px;
+  font-family: sans-serif;
+}
+
+.authForm a {
+  text-decoration: underline;
+}
+
+.authForm input {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  outline: none;
+  display: block;
+  font-weight: 300;
+  font-size: 18px;
+  width: 100%;
+  border-bottom: 1px solid #3c5a98;
+  padding: 30px 25px 0 60px;
+  text-align: left;
+}
+
+.authForm button {
+  margin-top: 35px;
+  margin-bottom: 45px;
+  background-color: transparent;
+  border: 1px solid #e32118;
+  color: #e32118;
+  padding: 13px 45px;
+  font-size: 19px;
+  border-radius: 100px;
+}
+
+.authForm button:hover{
+  background: #e32118;
+  color: white;
+}
+
+.authForm p {
+  color: #00559f;
+  text-shadow: 1px 0 0 #00559f;
+}
+
+.authtoggle {
+  text-transform: uppercase;
+}
+
+/* blog */
+
+.blog {
+  display: flexbox;
+  flex-direction: row;  
+  width: 100%;
+  background: #00172b;
+  color: white;
+}
+
+.blog h2 {
+  font-size: 28px;
+  margin-top: 0;
+  padding-top: 20px;
+  margin-bottom: 0;
+  padding-bottom: 15px;
+  margin: 0 12px;
+  display: block;
+  font-family: sans-serif;
+}
+
+.blogLine {
+  border-bottom: 1px solid #202f36;
+}
+
+.message {
+  display: flex;
+  flex-direction: row;
+  margin-right: 20px;
+  border-bottom: 1px solid #202f36;
+}
+
+.userMess {
+  text-align: center;
+  float: left;
+  font-family: sans-serif;
+  width: 20%;
+  padding: 30px;
+}
+
+.userMess p {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 300;
+  display: block;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #999;
+}
+
+.userMess img {
+  width: 45%;
+  min-width: 80px;
+}
+
+.userPost {
+  width: 75%;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+}
+
+.postImg {
+  width: 30%;
+}
+
+
+/* profile post */
+
+.btn {
+  display: flex;
+  flex-direction: column;
+}
+
+.delbtn {
+  padding: 5px;
+  float: right;
+  background-color: transparent;
+  border: none;
+  color: #e32118;
+  font-family: sans-serif;
+  border: 1px solid #e32118;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.editbtn {
+  margin-top: 30px;
+  padding: 5px;
+  float: right;
+  background-color: transparent;
+  border: none;
+  color: #e32118;
+  font-family: sans-serif;
+  border: 1px solid #e32118;
+  border-radius: 5px;
+}
+
+.editbtn:hover {
+  background-color: #e32118;
+  color: white;
+}
+
+.delbtn:hover {
+  background-color: #e32118;
+  color: white;
+}
+
+.userPost h2 {
+  color: #ffffff;
+  line-height: 19px;
+  margin-top: 3px;
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: 300;
+  word-wrap: break-word;
+  margin: 0 12px;
+  display: block;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.time {
+  border-left: 1px solid #a4a4a4;
+  padding-left: 12px;
+  font-size: 12px;
+  font-weight: 200;
+  font-family: sans-serif;
+  color: #e32118;
+}
+
+.yourMess {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  padding-bottom: 25px;
+  padding-top: 15px;
+  margin-bottom: 35px;
+}
+
+.yourMess form {
+  padding-left: 12px;
+}
+
+.text h2 {
+  font-size: 28px;
+  margin-top: 0;
+  padding-top: 20px;
+  margin-bottom: 0;
+  padding-bottom: 15px;
+  font-family: sans-serif;
+}
+
+/* input for new message */
+
+.yourMess input {
+  background-color: transparent;
+  z-index: -1;
+  border: none;
+  box-shadow: none;
+  outline: none;
+  display: block;
+  font-weight: 300;
+  font-size: 18px;
+  width: 20%;
+  border-bottom: 1px solid #3c5a98;
+  padding: 30px 25px 0 60px;
+  text-align: left;
+} 
+.send button {
+  float: left;
+  margin-top: 35px;
+  margin-bottom: 45px;
+  background-color: transparent;
+  border: 1px solid #00559f;
+  color: #00559f;
+  padding: 13px 45px;
+  font-size: 19px;
+  border-radius: 100px;
+}
+
+.send button:hover {
+  background-color: #00559f;
+  color: white;
+}
+
+/* profile */
+
+.yourProfile {
+  display: flexbox;
+  flex-direction: column;
+  margin-left: 12px;
+}
+
+.yourProfile h1 {
+  color: #00559f;
+  text-transform: uppercase;
+  vertical-align: top;
+  margin-top: 15px;
+  font-size: 40px;
+  font-family: sans-serif;
+}
+
+.yourProfile h3 {
+  color: #00559f;
+  text-transform: uppercase;
+  vertical-align: top;
+  margin-top: 15px;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+.yourProfile p {
+  font-size: 14px;
+  color: #a29061;
+  display: block;
+  font-family: sans-serif;
+}
+
+.yourProfile img {
+  width: 20%;
+}
+
+.editProfileBtn {
+  background: transparent;
+  border: 1px solid #00559f;
+  color: #00559f;
+  text-transform: uppercase;
+  padding: 6px 25px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.editProfileBtn:hover {
+  background: #00559f;
+  color: white;
+}
+
+.addFile {
+  display: block;
+  color: #e32118;
+  text-transform: uppercase;
+  padding-top: 17px;
+  padding-right: 23px;
+  padding-bottom: 17px;
+  padding-left: 23px;
+  font-size: 14px;
+  font-weight: 300;
+  font-family: sans-serif;
+  width: 20%;
+}
+
+.addFile:hover {
+  color: white;
+  background: #00559f;
+  opacity: 0.7;
+}
+
+.hideInput {
+  background-color: transparent;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 10px 15px 10px 15px;
+  opacity: 0;
+}
