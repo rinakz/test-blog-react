@@ -267,7 +267,7 @@ body {
   font-weight: 300;
   font-size: 18px;
   width: 20%;
-  min-width: 100px;
+  min-width: 200px;
   border-bottom: 1px solid #3c5a98;
   padding: 30px 25px 0 30px;
   text-align: left;
@@ -353,6 +353,7 @@ body {
   font-weight: 300;
   font-family: sans-serif;
   width: 20%;
+  min-width: 200px;
 }
 
 .addFile:hover {
