@@ -267,8 +267,9 @@ body {
   font-weight: 300;
   font-size: 18px;
   width: 20%;
+  min-width: 100px;
   border-bottom: 1px solid #3c5a98;
-  padding: 30px 25px 0 60px;
+  padding: 30px 25px 0 30px;
   text-align: left;
 } 
 .send button {
